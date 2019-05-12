@@ -1,0 +1,4059 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <style>#map_913bb49fe57a43f6951d01d8a1500f8e {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_913bb49fe57a43f6951d01d8a1500f8e" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_913bb49fe57a43f6951d01d8a1500f8e = L.map(
+        'map_913bb49fe57a43f6951d01d8a1500f8e', {
+        center: [50.259488, 19.021567],
+        zoom: 12,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+    
+    
+    var tile_layer_ba75b64c49904e2a8b90d05ee9c7785a = L.tileLayer(
+        'https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "subdomains": "abc"
+}).addTo(map_913bb49fe57a43f6951d01d8a1500f8e);
+    
+            var feature_group_bc611db45d494ac08032b0f622784d90 = L.featureGroup(
+                ).addTo(map_913bb49fe57a43f6951d01d8a1500f8e);
+        
+    
+            var circle_marker_6abae67597c1482385a03debf50f0b0a = L.circleMarker(
+                [50.2750609, 18.9805487],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1C4ACF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#1C4ACF",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 8.303517587939702,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc611db45d494ac08032b0f622784d90);
+            
+    
+            var popup_a8ec2bd11feb402284ad0254c5f65b92 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_45805422f44a4a07b9dd173be1dd3e3c = $('<div id="html_45805422f44a4a07b9dd173be1dd3e3c" style="width: 100.0%; height: 100.0%;">Al. Bolesława Krzywoustego<br> radius: 2.0</div>')[0];
+                popup_a8ec2bd11feb402284ad0254c5f65b92.setContent(html_45805422f44a4a07b9dd173be1dd3e3c);
+            
+
+            circle_marker_6abae67597c1482385a03debf50f0b0a.bindPopup(popup_a8ec2bd11feb402284ad0254c5f65b92)
+            ;
+
+            
+        
+    
+            var circle_marker_da1c5912d3a64a6f9f0083baf641d460 = L.circleMarker(
+                [50.280125399999996, 18.9737402],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1C4ACF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#1C4ACF",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6.46853800544843,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc611db45d494ac08032b0f622784d90);
+            
+    
+            var popup_22ea368aadca40a7974ccce1993ae47a = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_c23a2de201424819ac7d4d2dbf530f9f = $('<div id="html_c23a2de201424819ac7d4d2dbf530f9f" style="width: 100.0%; height: 100.0%;">Al. Księcia Henryka Pobożnego<br> radius: 1.0</div>')[0];
+                popup_22ea368aadca40a7974ccce1993ae47a.setContent(html_c23a2de201424819ac7d4d2dbf530f9f);
+            
+
+            circle_marker_da1c5912d3a64a6f9f0083baf641d460.bindPopup(popup_22ea368aadca40a7974ccce1993ae47a)
+            ;
+
+            
+        
+    
+            var circle_marker_5ee16d24c4bd4b54a2c270a3faf34266 = L.circleMarker(
+                [50.2841958, 18.9678905],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1C4ACF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#1C4ACF",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2.413533834586463,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc611db45d494ac08032b0f622784d90);
+            
+    
+            var popup_7b7536c4b1584588ad64e39b5dbcc8e8 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_dccdcd6a63c14f398cb300b6c1228527 = $('<div id="html_dccdcd6a63c14f398cb300b6c1228527" style="width: 100.0%; height: 100.0%;">Al. Księżnej Jadwigi Śląskiej<br> radius: 0.0</div>')[0];
+                popup_7b7536c4b1584588ad64e39b5dbcc8e8.setContent(html_dccdcd6a63c14f398cb300b6c1228527);
+            
+
+            circle_marker_5ee16d24c4bd4b54a2c270a3faf34266.bindPopup(popup_7b7536c4b1584588ad64e39b5dbcc8e8)
+            ;
+
+            
+        
+    
+            var circle_marker_7ae73932bc834613996c3a0623bce5b3 = L.circleMarker(
+                [50.208442, 18.9738566],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1C4ACF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#1C4ACF",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.2684782608695633,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc611db45d494ac08032b0f622784d90);
+            
+    
+            var popup_bf91843afe5a4dc2b4c3d899a6454693 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_66ca99390fbd4a2e880c31c62468a3fa = $('<div id="html_66ca99390fbd4a2e880c31c62468a3fa" style="width: 100.0%; height: 100.0%;">Armii Krajowej/Jankego<br> radius: 0.0</div>')[0];
+                popup_bf91843afe5a4dc2b4c3d899a6454693.setContent(html_66ca99390fbd4a2e880c31c62468a3fa);
+            
+
+            circle_marker_7ae73932bc834613996c3a0623bce5b3.bindPopup(popup_bf91843afe5a4dc2b4c3d899a6454693)
+            ;
+
+            
+        
+    
+            var circle_marker_038195268f6245f982bc7248e138f586 = L.circleMarker(
+                [50.2687742, 19.038690600000002],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1C4ACF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#1C4ACF",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.691480081419023,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc611db45d494ac08032b0f622784d90);
+            
+    
+            var popup_3ed6a6b9251243f59fba093d1104ab8e = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_6f3971d2aeb84398a200c2a0ef723b75 = $('<div id="html_6f3971d2aeb84398a200c2a0ef723b75" style="width: 100.0%; height: 100.0%;">Bogucice Szpital<br> radius: 1.0</div>')[0];
+                popup_3ed6a6b9251243f59fba093d1104ab8e.setContent(html_6f3971d2aeb84398a200c2a0ef723b75);
+            
+
+            circle_marker_038195268f6245f982bc7248e138f586.bindPopup(popup_3ed6a6b9251243f59fba093d1104ab8e)
+            ;
+
+            
+        
+    
+            var circle_marker_8f0f1b694be9454c853dfffd9825fbf5 = L.circleMarker(
+                [50.26451420000001, 19.0250095],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1C4ACF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#1C4ACF",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 0.9927213386520073,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc611db45d494ac08032b0f622784d90);
+            
+    
+            var popup_2719358c1c4a4c72834feb31a58e56b0 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_ae7b0bde2f9a4970b03e208458b9cfcc = $('<div id="html_ae7b0bde2f9a4970b03e208458b9cfcc" style="width: 100.0%; height: 100.0%;">COP24<br> radius: 0.0</div>')[0];
+                popup_2719358c1c4a4c72834feb31a58e56b0.setContent(html_ae7b0bde2f9a4970b03e208458b9cfcc);
+            
+
+            circle_marker_8f0f1b694be9454c853dfffd9825fbf5.bindPopup(popup_2719358c1c4a4c72834feb31a58e56b0)
+            ;
+
+            
+        
+    
+            var circle_marker_ad50ac7ef9fb416c88664bf71c37a79d = L.circleMarker(
+                [50.23321729999999, 19.0278122],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1C4ACF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#1C4ACF",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5.069709053315616,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc611db45d494ac08032b0f622784d90);
+            
+    
+            var popup_a655abb65ca44277a76b10d715477ce5 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_a7b816411d984e938c1f4116b2d9db75 = $('<div id="html_a7b816411d984e938c1f4116b2d9db75" style="width: 100.0%; height: 100.0%;">Dolina 3-ch Stawów<br> radius: 1.0</div>')[0];
+                popup_a655abb65ca44277a76b10d715477ce5.setContent(html_a7b816411d984e938c1f4116b2d9db75);
+            
+
+            circle_marker_ad50ac7ef9fb416c88664bf71c37a79d.bindPopup(popup_a655abb65ca44277a76b10d715477ce5)
+            ;
+
+            
+        
+    
+            var circle_marker_d7965f0fefd94f85a7b8a635b258ac24 = L.circleMarker(
+                [50.283093, 19.0272936],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1C4ACF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#1C4ACF",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc611db45d494ac08032b0f622784d90);
+            
+    
+            var popup_7beecd287b754b59b8f48a2e157ac235 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_46d326ad52354b49aae83a7c6b6970c1 = $('<div id="html_46d326ad52354b49aae83a7c6b6970c1" style="width: 100.0%; height: 100.0%;">GPP Business Park<br> radius: 0</div>')[0];
+                popup_7beecd287b754b59b8f48a2e157ac235.setContent(html_46d326ad52354b49aae83a7c6b6970c1);
+            
+
+            circle_marker_d7965f0fefd94f85a7b8a635b258ac24.bindPopup(popup_7beecd287b754b59b8f48a2e157ac235)
+            ;
+
+            
+        
+    
+            var circle_marker_47f918ce54cf4cdfb89de14ad8bc327f = L.circleMarker(
+                [50.2435531, 19.0362906],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1C4ACF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#1C4ACF",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 0.5020634736107876,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc611db45d494ac08032b0f622784d90);
+            
+    
+            var popup_1e266ac49b90481f867a0cb568a0bf42 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_215bd11c832a4edeb5e9d7590cf92718 = $('<div id="html_215bd11c832a4edeb5e9d7590cf92718" style="width: 100.0%; height: 100.0%;">Galeria 3 Stawy<br> radius: 0.0</div>')[0];
+                popup_1e266ac49b90481f867a0cb568a0bf42.setContent(html_215bd11c832a4edeb5e9d7590cf92718);
+            
+
+            circle_marker_47f918ce54cf4cdfb89de14ad8bc327f.bindPopup(popup_1e266ac49b90481f867a0cb568a0bf42)
+            ;
+
+            
+        
+    
+            var circle_marker_9b04ff382c3e411ea504ef90efb8c9d7 = L.circleMarker(
+                [50.2219261, 19.064726800000003],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1C4ACF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#1C4ACF",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.5146921641791034,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc611db45d494ac08032b0f622784d90);
+            
+    
+            var popup_1191951475da450b9bc1c33510250567 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_29ec15fd22434a6987abb9ea288805a4 = $('<div id="html_29ec15fd22434a6987abb9ea288805a4" style="width: 100.0%; height: 100.0%;">Giszowiec - Plac Pod Lipami<br> radius: 0.0</div>')[0];
+                popup_1191951475da450b9bc1c33510250567.setContent(html_29ec15fd22434a6987abb9ea288805a4);
+            
+
+            circle_marker_9b04ff382c3e411ea504ef90efb8c9d7.bindPopup(popup_1191951475da450b9bc1c33510250567)
+            ;
+
+            
+        
+    
+            var circle_marker_de2ba23d581f4f4f9fb453660e95fa0b = L.circleMarker(
+                [50.26205, 19.075126],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1C4ACF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#1C4ACF",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc611db45d494ac08032b0f622784d90);
+            
+    
+            var popup_ed710391f4674034ab3feaac49f3731c = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_f8f23d5c661746029890b6f5cb4a6f5f = $('<div id="html_f8f23d5c661746029890b6f5cb4a6f5f" style="width: 100.0%; height: 100.0%;">ING Roździeńska<br> radius: 0</div>')[0];
+                popup_ed710391f4674034ab3feaac49f3731c.setContent(html_f8f23d5c661746029890b6f5cb4a6f5f);
+            
+
+            circle_marker_de2ba23d581f4f4f9fb453660e95fa0b.bindPopup(popup_ed710391f4674034ab3feaac49f3731c)
+            ;
+
+            
+        
+    
+            var circle_marker_75c03bf89856429faee56ec05f33b985 = L.circleMarker(
+                [50.265271999999996, 19.016265],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1C4ACF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#1C4ACF",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc611db45d494ac08032b0f622784d90);
+            
+    
+            var popup_76e34ea1f26f4ab99de3fd85bd8a04d2 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_d62528c557874a8d9fe8af6013b4b683 = $('<div id="html_d62528c557874a8d9fe8af6013b4b683" style="width: 100.0%; height: 100.0%;">ING Sokolska<br> radius: 0</div>')[0];
+                popup_76e34ea1f26f4ab99de3fd85bd8a04d2.setContent(html_d62528c557874a8d9fe8af6013b4b683);
+            
+
+            circle_marker_75c03bf89856429faee56ec05f33b985.bindPopup(popup_76e34ea1f26f4ab99de3fd85bd8a04d2)
+            ;
+
+            
+        
+    
+            var circle_marker_5e1692b00e724bdaaa22d184b85fdc7d = L.circleMarker(
+                [50.2551631, 19.037120899999998],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1C4ACF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#1C4ACF",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.0727386934673433,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc611db45d494ac08032b0f622784d90);
+            
+    
+            var popup_0e116d482cd1485b8bbf65661b29e085 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_5e2364180ae9446782000dbdc9503ead = $('<div id="html_5e2364180ae9446782000dbdc9503ead" style="width: 100.0%; height: 100.0%;">KTBS – Krasińskiego 14<br> radius: 0.0</div>')[0];
+                popup_0e116d482cd1485b8bbf65661b29e085.setContent(html_5e2364180ae9446782000dbdc9503ead);
+            
+
+            circle_marker_5e1692b00e724bdaaa22d184b85fdc7d.bindPopup(popup_0e116d482cd1485b8bbf65661b29e085)
+            ;
+
+            
+        
+    
+            var circle_marker_bdb14c53543d463592fb5fbc6ad0e9b4 = L.circleMarker(
+                [50.2611859, 19.0560131],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1C4ACF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#1C4ACF",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6.358985625510014,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc611db45d494ac08032b0f622784d90);
+            
+    
+            var popup_df69d1978f204bcfac2b64b9e3b4ea9b = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_0288d191262b44d395c0dded09fb9f6f = $('<div id="html_0288d191262b44d395c0dded09fb9f6f" style="width: 100.0%; height: 100.0%;">KTBS – Saint Etienne 1<br> radius: 1.0</div>')[0];
+                popup_df69d1978f204bcfac2b64b9e3b4ea9b.setContent(html_0288d191262b44d395c0dded09fb9f6f);
+            
+
+            circle_marker_bdb14c53543d463592fb5fbc6ad0e9b4.bindPopup(popup_df69d1978f204bcfac2b64b9e3b4ea9b)
+            ;
+
+            
+        
+    
+            var circle_marker_92974ace6a5247708120fef3890830a6 = L.circleMarker(
+                [50.2587328, 19.0215882],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1C4ACF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#1C4ACF",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 8.78712871287128,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc611db45d494ac08032b0f622784d90);
+            
+    
+            var popup_147e5ff412624f6fbd764cdc86a7e254 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_44a938c9f3f0404090c71edd172ba3c8 = $('<div id="html_44a938c9f3f0404090c71edd172ba3c8" style="width: 100.0%; height: 100.0%;">Katowice Rynek<br> radius: 2.0</div>')[0];
+                popup_147e5ff412624f6fbd764cdc86a7e254.setContent(html_44a938c9f3f0404090c71edd172ba3c8);
+            
+
+            circle_marker_92974ace6a5247708120fef3890830a6.bindPopup(popup_147e5ff412624f6fbd764cdc86a7e254)
+            ;
+
+            
+        
+    
+            var circle_marker_04da57609ed6445fb0022e7884b0de89 = L.circleMarker(
+                [50.234984999999995, 18.959487600000003],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1C4ACF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#1C4ACF",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.9747150192140035,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc611db45d494ac08032b0f622784d90);
+            
+    
+            var popup_9c4e4b32744940b890e81930c91da239 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_ba02e6b6d13f43c382c036c907ebbc2e = $('<div id="html_ba02e6b6d13f43c382c036c907ebbc2e" style="width: 100.0%; height: 100.0%;">Kokociniec S.P nr 67<br> radius: 1.0</div>')[0];
+                popup_9c4e4b32744940b890e81930c91da239.setContent(html_ba02e6b6d13f43c382c036c907ebbc2e);
+            
+
+            circle_marker_04da57609ed6445fb0022e7884b0de89.bindPopup(popup_9c4e4b32744940b890e81930c91da239)
+            ;
+
+            
+        
+    
+            var circle_marker_ab0e6f099dff4f42964964ac69710cd9 = L.circleMarker(
+                [50.200546200000005, 18.991386],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1C4ACF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#1C4ACF",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc611db45d494ac08032b0f622784d90);
+            
+    
+            var popup_9c4416cd8ee342d28e3aff3346806fee = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_0ddae7015e614d37ae783093afb19b66 = $('<div id="html_0ddae7015e614d37ae783093afb19b66" style="width: 100.0%; height: 100.0%;">Kostuchna – Bażantów<br> radius: 0</div>')[0];
+                popup_9c4416cd8ee342d28e3aff3346806fee.setContent(html_0ddae7015e614d37ae783093afb19b66);
+            
+
+            circle_marker_ab0e6f099dff4f42964964ac69710cd9.bindPopup(popup_9c4416cd8ee342d28e3aff3346806fee)
+            ;
+
+            
+        
+    
+            var circle_marker_a98e96c9b7e1493787b42a2677e8d0ce = L.circleMarker(
+                [50.183717, 18.997722],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1C4ACF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#1C4ACF",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc611db45d494ac08032b0f622784d90);
+            
+    
+            var popup_158e835b6f334b829f13ac7ad834afef = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_9ef112455ff04ef6a04667f02d57b67e = $('<div id="html_9ef112455ff04ef6a04667f02d57b67e" style="width: 100.0%; height: 100.0%;">Kostuchna – Boże Dary<br> radius: 0</div>')[0];
+                popup_158e835b6f334b829f13ac7ad834afef.setContent(html_9ef112455ff04ef6a04667f02d57b67e);
+            
+
+            circle_marker_a98e96c9b7e1493787b42a2677e8d0ce.bindPopup(popup_158e835b6f334b829f13ac7ad834afef)
+            ;
+
+            
+        
+    
+            var circle_marker_37d53f257c244d5180345d01c794395c = L.circleMarker(
+                [50.200024, 18.977245],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1C4ACF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#1C4ACF",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc611db45d494ac08032b0f622784d90);
+            
+    
+            var popup_01cfd26583e649c48893e7c6476c0c4f = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_e09a303de41e4e46815a807e0edb4375 = $('<div id="html_e09a303de41e4e46815a807e0edb4375" style="width: 100.0%; height: 100.0%;">Kostuchna – Rondo Rostworowskiego<br> radius: 0</div>')[0];
+                popup_01cfd26583e649c48893e7c6476c0c4f.setContent(html_e09a303de41e4e46815a807e0edb4375);
+            
+
+            circle_marker_37d53f257c244d5180345d01c794395c.bindPopup(popup_01cfd26583e649c48893e7c6476c0c4f)
+            ;
+
+            
+        
+    
+            var circle_marker_2f20e5db17064f148263398534ff0343 = L.circleMarker(
+                [50.1936046, 18.990702399999996],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1C4ACF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#1C4ACF",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc611db45d494ac08032b0f622784d90);
+            
+    
+            var popup_1a2b463a36454675a6d6918ec416a3cc = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_9724b19913694e4ca5ec3c39f65af424 = $('<div id="html_9724b19913694e4ca5ec3c39f65af424" style="width: 100.0%; height: 100.0%;">Kostuchna – Szarych Szeregów<br> radius: 0</div>')[0];
+                popup_1a2b463a36454675a6d6918ec416a3cc.setContent(html_9724b19913694e4ca5ec3c39f65af424);
+            
+
+            circle_marker_2f20e5db17064f148263398534ff0343.bindPopup(popup_1a2b463a36454675a6d6918ec416a3cc)
+            ;
+
+            
+        
+    
+            var circle_marker_2e26aa22b22e414bb29dca3a062b95da = L.circleMarker(
+                [50.2703969, 19.0247514],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1C4ACF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#1C4ACF",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc611db45d494ac08032b0f622784d90);
+            
+    
+            var popup_66f0acf2c483458d9708c1c992437e59 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_5c14a5f30abe4a999a4f1bcefeb216b2 = $('<div id="html_5c14a5f30abe4a999a4f1bcefeb216b2" style="width: 100.0%; height: 100.0%;">Koszutka – Plac Gwarków<br> radius: 0</div>')[0];
+                popup_66f0acf2c483458d9708c1c992437e59.setContent(html_5c14a5f30abe4a999a4f1bcefeb216b2);
+            
+
+            circle_marker_2e26aa22b22e414bb29dca3a062b95da.bindPopup(popup_66f0acf2c483458d9708c1c992437e59)
+            ;
+
+            
+        
+    
+            var circle_marker_9df0d2d8878c4841b6fa45afc9dd1b8a = L.circleMarker(
+                [50.2261787, 18.975212300000003],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E80018",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#E80018",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 0.9071628006872867,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc611db45d494ac08032b0f622784d90);
+            
+    
+            var popup_5baa5b6a743a4f7a9acccd173cddd9d8 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_d2f83135e91846628f9c7da1c968eef4 = $('<div id="html_d2f83135e91846628f9c7da1c968eef4" style="width: 100.0%; height: 100.0%;">Ligota Dworzec PKP<br> radius: 0.0</div>')[0];
+                popup_5baa5b6a743a4f7a9acccd173cddd9d8.setContent(html_d2f83135e91846628f9c7da1c968eef4);
+            
+
+            circle_marker_9df0d2d8878c4841b6fa45afc9dd1b8a.bindPopup(popup_5baa5b6a743a4f7a9acccd173cddd9d8)
+            ;
+
+            
+        
+    
+            var circle_marker_e927a0b4006a4694841a0d71f0bdad22 = L.circleMarker(
+                [50.2266646, 18.9585549],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1C4ACF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#1C4ACF",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.2087236380762967,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc611db45d494ac08032b0f622784d90);
+            
+    
+            var popup_cf419980b40248d3bc460a030d979f91 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_6e7e122c9b86492f99c132b4e0bac032 = $('<div id="html_6e7e122c9b86492f99c132b4e0bac032" style="width: 100.0%; height: 100.0%;">Ligota Medyków<br> radius: 0.0</div>')[0];
+                popup_cf419980b40248d3bc460a030d979f91.setContent(html_6e7e122c9b86492f99c132b4e0bac032);
+            
+
+            circle_marker_e927a0b4006a4694841a0d71f0bdad22.bindPopup(popup_cf419980b40248d3bc460a030d979f91)
+            ;
+
+            
+        
+    
+            var circle_marker_382059fa1566488182d980cde715a079 = L.circleMarker(
+                [50.2187842, 18.968023000000002],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1C4ACF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#1C4ACF",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2.3254654255319185,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc611db45d494ac08032b0f622784d90);
+            
+    
+            var popup_13af114ca21641cb96fe21714e471be5 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_f10c5951baf2444fbce612140285a77b = $('<div id="html_f10c5951baf2444fbce612140285a77b" style="width: 100.0%; height: 100.0%;">Ligota Wczasowa<br> radius: 0.0</div>')[0];
+                popup_13af114ca21641cb96fe21714e471be5.setContent(html_f10c5951baf2444fbce612140285a77b);
+            
+
+            circle_marker_382059fa1566488182d980cde715a079.bindPopup(popup_13af114ca21641cb96fe21714e471be5)
+            ;
+
+            
+        
+    
+            var circle_marker_676190240e944fd8adc5766a42cf0154 = L.circleMarker(
+                [50.267405, 19.013105],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E80018",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#E80018",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.6333387305699532,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc611db45d494ac08032b0f622784d90);
+            
+    
+            var popup_0b7c74076c4e40ca8536228e18db894e = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_526f097fcd304fa0ae96d54f57a34fa4 = $('<div id="html_526f097fcd304fa0ae96d54f57a34fa4" style="width: 100.0%; height: 100.0%;">Murapol Chorzowska<br> radius: 0.0</div>')[0];
+                popup_0b7c74076c4e40ca8536228e18db894e.setContent(html_526f097fcd304fa0ae96d54f57a34fa4);
+            
+
+            circle_marker_676190240e944fd8adc5766a42cf0154.bindPopup(popup_0b7c74076c4e40ca8536228e18db894e)
+            ;
+
+            
+        
+    
+            var circle_marker_df24b36db8094137a9fd62bd1cf62296 = L.circleMarker(
+                [50.2572153, 19.0286454],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1C4ACF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#1C4ACF",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 0.9933417085427187,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc611db45d494ac08032b0f622784d90);
+            
+    
+            var popup_3a6e67f111824e218a857b9757a28b0a = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_a56b4d2806d54855a7ca20a65f1fa668 = $('<div id="html_a56b4d2806d54855a7ca20a65f1fa668" style="width: 100.0%; height: 100.0%;">Murapol Mariacka<br> radius: 0.0</div>')[0];
+                popup_3a6e67f111824e218a857b9757a28b0a.setContent(html_a56b4d2806d54855a7ca20a65f1fa668);
+            
+
+            circle_marker_df24b36db8094137a9fd62bd1cf62296.bindPopup(popup_3a6e67f111824e218a857b9757a28b0a)
+            ;
+
+            
+        
+    
+            var circle_marker_8c08375dc00640b082ebe7ef3c761acc = L.circleMarker(
+                [50.1983719, 19.0427391],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1C4ACF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#1C4ACF",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 0.7007575757575735,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc611db45d494ac08032b0f622784d90);
+            
+    
+            var popup_b337e24887284a4caa0b0ee8d692f981 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_d404ba3f5d6c43a0bfd7d3f4c974ef83 = $('<div id="html_d404ba3f5d6c43a0bfd7d3f4c974ef83" style="width: 100.0%; height: 100.0%;">Murcki - Rynek Murckowski<br> radius: 0.0</div>')[0];
+                popup_b337e24887284a4caa0b0ee8d692f981.setContent(html_d404ba3f5d6c43a0bfd7d3f4c974ef83);
+            
+
+            circle_marker_8c08375dc00640b082ebe7ef3c761acc.bindPopup(popup_b337e24887284a4caa0b0ee8d692f981)
+            ;
+
+            
+        
+    
+            var circle_marker_1017e168cb5f4b1eaa5950bef6e51f6f = L.circleMarker(
+                [50.244895899999996, 19.0822254],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1C4ACF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#1C4ACF",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.4793668739400774,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc611db45d494ac08032b0f622784d90);
+            
+    
+            var popup_0d1ebc6cbcc04c818a830527df3c7eff = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_49595f2905804aef92992ad0acfbe92c = $('<div id="html_49595f2905804aef92992ad0acfbe92c" style="width: 100.0%; height: 100.0%;">Nikiszowiec Lodowisko Jantor<br> radius: 1.0</div>')[0];
+                popup_0d1ebc6cbcc04c818a830527df3c7eff.setContent(html_49595f2905804aef92992ad0acfbe92c);
+            
+
+            circle_marker_1017e168cb5f4b1eaa5950bef6e51f6f.bindPopup(popup_0d1ebc6cbcc04c818a830527df3c7eff)
+            ;
+
+            
+        
+    
+            var circle_marker_a6437cda97d24f0189043b9962a6dcd2 = L.circleMarker(
+                [50.241248, 19.07865],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1C4ACF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#1C4ACF",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc611db45d494ac08032b0f622784d90);
+            
+    
+            var popup_86e5857534d140c9b11c15560dbd0878 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_0b2d66e8b3c74175b9dde64b97ef872b = $('<div id="html_0b2d66e8b3c74175b9dde64b97ef872b" style="width: 100.0%; height: 100.0%;">Nikiszowiec – Św. Anny<br> radius: 0</div>')[0];
+                popup_86e5857534d140c9b11c15560dbd0878.setContent(html_0b2d66e8b3c74175b9dde64b97ef872b);
+            
+
+            circle_marker_a6437cda97d24f0189043b9962a6dcd2.bindPopup(popup_86e5857534d140c9b11c15560dbd0878)
+            ;
+
+            
+        
+    
+            var circle_marker_7a7ed08d001f41f8b5ff7322bf8ac8b5 = L.circleMarker(
+                [50.2696, 19.046860000000002],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1C4ACF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#1C4ACF",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc611db45d494ac08032b0f622784d90);
+            
+    
+            var popup_8209b623f3c641d7a96cfb8f9b879814 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_883624cdd16a44ac88e8867491ffdc6b = $('<div id="html_883624cdd16a44ac88e8867491ffdc6b" style="width: 100.0%; height: 100.0%;">Os. Kukuczki – Skwer Koszycki<br> radius: 0</div>')[0];
+                popup_8209b623f3c641d7a96cfb8f9b879814.setContent(html_883624cdd16a44ac88e8867491ffdc6b);
+            
+
+            circle_marker_7a7ed08d001f41f8b5ff7322bf8ac8b5.bindPopup(popup_8209b623f3c641d7a96cfb8f9b879814)
+            ;
+
+            
+        
+    
+            var circle_marker_95a9911957064d508bbe3c9f1eb9644e = L.circleMarker(
+                [50.232459000000006, 19.00897],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1C4ACF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#1C4ACF",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc611db45d494ac08032b0f622784d90);
+            
+    
+            var popup_636e5dad64464b5dbbca3d6125df25ba = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_7cc77099159f4b1eb02aa038f1de9269 = $('<div id="html_7cc77099159f4b1eb02aa038f1de9269" style="width: 100.0%; height: 100.0%;">Os. Ptasie – ul. Drozdów<br> radius: 0</div>')[0];
+                popup_636e5dad64464b5dbbca3d6125df25ba.setContent(html_7cc77099159f4b1eb02aa038f1de9269);
+            
+
+            circle_marker_95a9911957064d508bbe3c9f1eb9644e.bindPopup(popup_636e5dad64464b5dbbca3d6125df25ba)
+            ;
+
+            
+        
+    
+            var circle_marker_3169499f288e48f59170eaac0b3f7e2f = L.circleMarker(
+                [50.2372626, 19.004530300000003],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1C4ACF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#1C4ACF",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc611db45d494ac08032b0f622784d90);
+            
+    
+            var popup_ffaa8e74bdca4aeda62bb19083e00570 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_007a7ae0cbee46d2bea57d40348c24fb = $('<div id="html_007a7ae0cbee46d2bea57d40348c24fb" style="width: 100.0%; height: 100.0%;">Os. Ptasie – ul. Gawronów<br> radius: 0</div>')[0];
+                popup_ffaa8e74bdca4aeda62bb19083e00570.setContent(html_007a7ae0cbee46d2bea57d40348c24fb);
+            
+
+            circle_marker_3169499f288e48f59170eaac0b3f7e2f.bindPopup(popup_ffaa8e74bdca4aeda62bb19083e00570)
+            ;
+
+            
+        
+    
+            var circle_marker_c85e70cd69a549da94a0c1875aa46d64 = L.circleMarker(
+                [50.2625939, 18.9716948],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1C4ACF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#1C4ACF",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc611db45d494ac08032b0f622784d90);
+            
+    
+            var popup_4d84e112fb044ba8bc5152dd4320cb95 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_0c9017bacd2344889eff2735cc326bb6 = $('<div id="html_0c9017bacd2344889eff2735cc326bb6" style="width: 100.0%; height: 100.0%;">Os. Witosa – ul. Rataja<br> radius: 0</div>')[0];
+                popup_4d84e112fb044ba8bc5152dd4320cb95.setContent(html_0c9017bacd2344889eff2735cc326bb6);
+            
+
+            circle_marker_c85e70cd69a549da94a0c1875aa46d64.bindPopup(popup_4d84e112fb044ba8bc5152dd4320cb95)
+            ;
+
+            
+        
+    
+            var circle_marker_c5006e9f6fa84b52a20ae27c50bf4db3 = L.circleMarker(
+                [50.2315646, 18.9636766],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1C4ACF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#1C4ACF",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2.228881987577642,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc611db45d494ac08032b0f622784d90);
+            
+    
+            var popup_3d394b21a0c94728b2b38f31a08c3133 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_6f2e44274d4d45308901f0debe80cfc4 = $('<div id="html_6f2e44274d4d45308901f0debe80cfc4" style="width: 100.0%; height: 100.0%;">Osiedle Franciszkańskie<br> radius: 0.0</div>')[0];
+                popup_3d394b21a0c94728b2b38f31a08c3133.setContent(html_6f2e44274d4d45308901f0debe80cfc4);
+            
+
+            circle_marker_c5006e9f6fa84b52a20ae27c50bf4db3.bindPopup(popup_3d394b21a0c94728b2b38f31a08c3133)
+            ;
+
+            
+        
+    
+            var circle_marker_722e897f6a4b4036975e6d89a75c6a73 = L.circleMarker(
+                [50.259698, 18.968564100000002],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1C4ACF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#1C4ACF",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 0.5514775079992473,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc611db45d494ac08032b0f622784d90);
+            
+    
+            var popup_95ac8960e0d94e0d8d73b3b04eca0ca1 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_021586018d324a8c91fa69d0976fc466 = $('<div id="html_021586018d324a8c91fa69d0976fc466" style="width: 100.0%; height: 100.0%;">Osiedle Witosa - Plac Herberta<br> radius: 0.0</div>')[0];
+                popup_95ac8960e0d94e0d8d73b3b04eca0ca1.setContent(html_021586018d324a8c91fa69d0976fc466);
+            
+
+            circle_marker_722e897f6a4b4036975e6d89a75c6a73.bindPopup(popup_95ac8960e0d94e0d8d73b3b04eca0ca1)
+            ;
+
+            
+        
+    
+            var circle_marker_22d825fa49ca4be4bb3fc5133f8bb9e5 = L.circleMarker(
+                [50.2783792, 19.0818201],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1C4ACF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#1C4ACF",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc611db45d494ac08032b0f622784d90);
+            
+    
+            var popup_0de5dc00e350464f895d1f8908a308f1 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_570a36629bb448c388eaf4ef205d352a = $('<div id="html_570a36629bb448c388eaf4ef205d352a" style="width: 100.0%; height: 100.0%;">PKN Orlen - Al. Roździeńskiego<br> radius: 0</div>')[0];
+                popup_0de5dc00e350464f895d1f8908a308f1.setContent(html_570a36629bb448c388eaf4ef205d352a);
+            
+
+            circle_marker_22d825fa49ca4be4bb3fc5133f8bb9e5.bindPopup(popup_0de5dc00e350464f895d1f8908a308f1)
+            ;
+
+            
+        
+    
+            var circle_marker_c85a62ec770b4a42854e666848fbb98c = L.circleMarker(
+                [50.260639000000005, 18.986160899999998],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1C4ACF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#1C4ACF",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc611db45d494ac08032b0f622784d90);
+            
+    
+            var popup_dd35a2b908a24ac1813c9abd5cd1c832 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_78fae42e532843dd8bf3044943831f9d = $('<div id="html_78fae42e532843dd8bf3044943831f9d" style="width: 100.0%; height: 100.0%;">PKN Orlen - Bocheńskiego<br> radius: 0</div>')[0];
+                popup_dd35a2b908a24ac1813c9abd5cd1c832.setContent(html_78fae42e532843dd8bf3044943831f9d);
+            
+
+            circle_marker_c85a62ec770b4a42854e666848fbb98c.bindPopup(popup_dd35a2b908a24ac1813c9abd5cd1c832)
+            ;
+
+            
+        
+    
+            var circle_marker_f0213e85f10643eebd40c6456d214e15 = L.circleMarker(
+                [50.2544694, 19.047372],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1C4ACF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#1C4ACF",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc611db45d494ac08032b0f622784d90);
+            
+    
+            var popup_dc914d16199d40648a6fd149b09ae5f0 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_37fb8ed24df94e61aef828f4f28da5be = $('<div id="html_37fb8ed24df94e61aef828f4f28da5be" style="width: 100.0%; height: 100.0%;">PKN Orlen - Murckowska<br> radius: 0</div>')[0];
+                popup_dc914d16199d40648a6fd149b09ae5f0.setContent(html_37fb8ed24df94e61aef828f4f28da5be);
+            
+
+            circle_marker_f0213e85f10643eebd40c6456d214e15.bindPopup(popup_dc914d16199d40648a6fd149b09ae5f0)
+            ;
+
+            
+        
+    
+            var circle_marker_cc284f9ef8f14ff9a22b1182220fecb0 = L.circleMarker(
+                [50.2303445, 18.9721039],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1C4ACF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#1C4ACF",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc611db45d494ac08032b0f622784d90);
+            
+    
+            var popup_9d383165d964489fa3a803487e6f7c68 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_2b9903ccd1bf495c822668ca5985f1bd = $('<div id="html_2b9903ccd1bf495c822668ca5985f1bd" style="width: 100.0%; height: 100.0%;">PKN Orlen - Piotrowicka<br> radius: 0</div>')[0];
+                popup_9d383165d964489fa3a803487e6f7c68.setContent(html_2b9903ccd1bf495c822668ca5985f1bd);
+            
+
+            circle_marker_cc284f9ef8f14ff9a22b1182220fecb0.bindPopup(popup_9d383165d964489fa3a803487e6f7c68)
+            ;
+
+            
+        
+    
+            var circle_marker_fc792cb43e06486883a57b0e13b14174 = L.circleMarker(
+                [50.24681210000001, 19.0098855],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E80018",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#E80018",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.1243523316062127,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc611db45d494ac08032b0f622784d90);
+            
+    
+            var popup_f1d4f250e05b457c891454fc2a213deb = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_de7b5a49bf144a26a5186be1b526a09d = $('<div id="html_de7b5a49bf144a26a5186be1b526a09d" style="width: 100.0%; height: 100.0%;">Park Kościuszki<br> radius: 1.0</div>')[0];
+                popup_f1d4f250e05b457c891454fc2a213deb.setContent(html_de7b5a49bf144a26a5186be1b526a09d);
+            
+
+            circle_marker_fc792cb43e06486883a57b0e13b14174.bindPopup(popup_f1d4f250e05b457c891454fc2a213deb)
+            ;
+
+            
+        
+    
+            var circle_marker_f0adf5965c154817a1d572b59378d3e3 = L.circleMarker(
+                [50.2146385, 18.990065700000002],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1C4ACF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#1C4ACF",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 0.22953216374268948,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc611db45d494ac08032b0f622784d90);
+            
+    
+            var popup_32887ce943ee4b47abd4865ef5b65dcc = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_3547d384b1994d86b6cfb6483e2bb31a = $('<div id="html_3547d384b1994d86b6cfb6483e2bb31a" style="width: 100.0%; height: 100.0%;">Piotrowice V L.O.<br> radius: 0.0</div>')[0];
+                popup_32887ce943ee4b47abd4865ef5b65dcc.setContent(html_3547d384b1994d86b6cfb6483e2bb31a);
+            
+
+            circle_marker_f0adf5965c154817a1d572b59378d3e3.bindPopup(popup_32887ce943ee4b47abd4865ef5b65dcc)
+            ;
+
+            
+        
+    
+            var circle_marker_6b26fb01d6374523bf1c1400d40f5729 = L.circleMarker(
+                [50.2538403, 19.023790899999998],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E80018",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#E80018",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.5987041808024944,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc611db45d494ac08032b0f622784d90);
+            
+    
+            var popup_1b2bae9e8de64498800f49270033f4ec = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_7a325e3e62a647fbb25ac2bfedc098f3 = $('<div id="html_7a325e3e62a647fbb25ac2bfedc098f3" style="width: 100.0%; height: 100.0%;">Plac Sejmu Śląskiego<br> radius: 1.0</div>')[0];
+                popup_1b2bae9e8de64498800f49270033f4ec.setContent(html_7a325e3e62a647fbb25ac2bfedc098f3);
+            
+
+            circle_marker_6b26fb01d6374523bf1c1400d40f5729.bindPopup(popup_1b2bae9e8de64498800f49270033f4ec)
+            ;
+
+            
+        
+    
+            var circle_marker_28e309911137415ebe0df5cf8ccdd290 = L.circleMarker(
+                [50.25969, 19.01451],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1C4ACF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#1C4ACF",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc611db45d494ac08032b0f622784d90);
+            
+    
+            var popup_7774e34efb854414a98bf60d6ce3899b = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_36ab37e549e64564bf0f8ea5ce4b9393 = $('<div id="html_36ab37e549e64564bf0f8ea5ce4b9393" style="width: 100.0%; height: 100.0%;">Plac Wolności<br> radius: 0</div>')[0];
+                popup_7774e34efb854414a98bf60d6ce3899b.setContent(html_36ab37e549e64564bf0f8ea5ce4b9393);
+            
+
+            circle_marker_28e309911137415ebe0df5cf8ccdd290.bindPopup(popup_7774e34efb854414a98bf60d6ce3899b)
+            ;
+
+            
+        
+    
+            var circle_marker_31d5575928c34537afffc86e8bb9f0a9 = L.circleMarker(
+                [50.174445500000004, 18.9707267],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1C4ACF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#1C4ACF",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc611db45d494ac08032b0f622784d90);
+            
+    
+            var popup_32efb0b83425424a9ca6167f48c46094 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_80ec53c953e848719a5878a321c3fa10 = $('<div id="html_80ec53c953e848719a5878a321c3fa10" style="width: 100.0%; height: 100.0%;">Podlesie – Stary Most<br> radius: 0</div>')[0];
+                popup_32efb0b83425424a9ca6167f48c46094.setContent(html_80ec53c953e848719a5878a321c3fa10);
+            
+
+            circle_marker_31d5575928c34537afffc86e8bb9f0a9.bindPopup(popup_32efb0b83425424a9ca6167f48c46094)
+            ;
+
+            
+        
+    
+            var circle_marker_4923a85c375e44a1a3d6e1bda8d23410 = L.circleMarker(
+                [50.2554029, 19.0322917],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E80018",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#E80018",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5.250825176417022,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc611db45d494ac08032b0f622784d90);
+            
+    
+            var popup_93542137e524476e95478843d95c9d48 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_eaf026b36a154ad08d047a0844ffae9c = $('<div id="html_eaf026b36a154ad08d047a0844ffae9c" style="width: 100.0%; height: 100.0%;">Politechnika Śląska<br> radius: 1.0</div>')[0];
+                popup_93542137e524476e95478843d95c9d48.setContent(html_eaf026b36a154ad08d047a0844ffae9c);
+            
+
+            circle_marker_4923a85c375e44a1a3d6e1bda8d23410.bindPopup(popup_93542137e524476e95478843d95c9d48)
+            ;
+
+            
+        
+    
+            var circle_marker_278375b47fb349a581b8ef1021cd0b80 = L.circleMarker(
+                [50.269921999999994, 18.9981936],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E80018",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#E80018",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.7384018833956567,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc611db45d494ac08032b0f622784d90);
+            
+    
+            var popup_f16d9521fcd84941ae679aed8d04926b = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_962fd80f08684d99aa468b12b09f6185 = $('<div id="html_962fd80f08684d99aa468b12b09f6185" style="width: 100.0%; height: 100.0%;">Silesia Business Park<br> radius: 1.0</div>')[0];
+                popup_f16d9521fcd84941ae679aed8d04926b.setContent(html_962fd80f08684d99aa468b12b09f6185);
+            
+
+            circle_marker_278375b47fb349a581b8ef1021cd0b80.bindPopup(popup_f16d9521fcd84941ae679aed8d04926b)
+            ;
+
+            
+        
+    
+            var circle_marker_b1780dfebccb48fe8f4609a89bc5b7a9 = L.circleMarker(
+                [50.269575399999994, 19.0037077],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E80018",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#E80018",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 9.688636363636363,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc611db45d494ac08032b0f622784d90);
+            
+    
+            var popup_b31f63555efb415d956d33d6409353cf = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_1e83d8731e3746d5a6811f434905ead9 = $('<div id="html_1e83d8731e3746d5a6811f434905ead9" style="width: 100.0%; height: 100.0%;">Silesia City Center<br> radius: 2.0</div>')[0];
+                popup_b31f63555efb415d956d33d6409353cf.setContent(html_1e83d8731e3746d5a6811f434905ead9);
+            
+
+            circle_marker_b1780dfebccb48fe8f4609a89bc5b7a9.bindPopup(popup_b31f63555efb415d956d33d6409353cf)
+            ;
+
+            
+        
+    
+            var circle_marker_777ef368c0ec4652baea0865816b2851 = L.circleMarker(
+                [50.225401399999996, 18.970036399999998],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1C4ACF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#1C4ACF",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.1978134198353985,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc611db45d494ac08032b0f622784d90);
+            
+    
+            var popup_37ef11af4c18485bb400503cab4f67d1 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_797b39362d14448aaf070c13c8bdb9f3 = $('<div id="html_797b39362d14448aaf070c13c8bdb9f3" style="width: 100.0%; height: 100.0%;">Skwer Bolesława Szabelskiego<br> radius: 0.0</div>')[0];
+                popup_37ef11af4c18485bb400503cab4f67d1.setContent(html_797b39362d14448aaf070c13c8bdb9f3);
+            
+
+            circle_marker_777ef368c0ec4652baea0865816b2851.bindPopup(popup_37ef11af4c18485bb400503cab4f67d1)
+            ;
+
+            
+        
+    
+            var circle_marker_bc47339e6dd24a128227d9fdd2c080c0 = L.circleMarker(
+                [50.262446399999995, 19.095087600000003],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1C4ACF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#1C4ACF",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 0.6724386724386733,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc611db45d494ac08032b0f622784d90);
+            
+    
+            var popup_c115bd1d434344ea8172e34134d21327 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_96e5f5c1f24f4b6d931c8f9ebf1715d1 = $('<div id="html_96e5f5c1f24f4b6d931c8f9ebf1715d1" style="width: 100.0%; height: 100.0%;">Szopienice - Plac Powstańców Śląskich<br> radius: 0.0</div>')[0];
+                popup_c115bd1d434344ea8172e34134d21327.setContent(html_96e5f5c1f24f4b6d931c8f9ebf1715d1);
+            
+
+            circle_marker_bc47339e6dd24a128227d9fdd2c080c0.bindPopup(popup_c115bd1d434344ea8172e34134d21327)
+            ;
+
+            
+        
+    
+            var circle_marker_a9d066bd5f704af7851741057d1ef23c = L.circleMarker(
+                [50.251646799999996, 19.0311023],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1C4ACF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#1C4ACF",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.1122298295073207,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc611db45d494ac08032b0f622784d90);
+            
+    
+            var popup_e1a6d6bce8e6426eab7cf69e246db2e3 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_6e7ea426d5ee4dd6972b346f9b9ff208 = $('<div id="html_6e7ea426d5ee4dd6972b346f9b9ff208" style="width: 100.0%; height: 100.0%;">Ul. Powstańców - Biblioteka Śląska<br> radius: 0.0</div>')[0];
+                popup_e1a6d6bce8e6426eab7cf69e246db2e3.setContent(html_6e7ea426d5ee4dd6972b346f9b9ff208);
+            
+
+            circle_marker_a9d066bd5f704af7851741057d1ef23c.bindPopup(popup_e1a6d6bce8e6426eab7cf69e246db2e3)
+            ;
+
+            
+        
+    
+            var circle_marker_cae37e5bc86b4670940dad6dd8200fec = L.circleMarker(
+                [50.2192865, 18.9762528],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E80018",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#E80018",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.2192982456140378,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc611db45d494ac08032b0f622784d90);
+            
+    
+            var popup_e82bd721d9834e728ad28cc73682b213 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_ef6eb7ae75a9499b91eb4ca6d39c8d99 = $('<div id="html_ef6eb7ae75a9499b91eb4ca6d39c8d99" style="width: 100.0%; height: 100.0%;">Zadole Kościół<br> radius: 0.0</div>')[0];
+                popup_e82bd721d9834e728ad28cc73682b213.setContent(html_ef6eb7ae75a9499b91eb4ca6d39c8d99);
+            
+
+            circle_marker_cae37e5bc86b4670940dad6dd8200fec.bindPopup(popup_e82bd721d9834e728ad28cc73682b213)
+            ;
+
+            
+        
+    
+            var circle_marker_b340d143243e41aab5cda17198e30f2a = L.circleMarker(
+                [50.2630759, 19.0046196],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E80018",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#E80018",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 0.4526289682539719,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc611db45d494ac08032b0f622784d90);
+            
+    
+            var popup_f1bf557c5d2e435bb403fd421f8eb375 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_b2a008aa595f46a1b4c731fed92d30ad = $('<div id="html_b2a008aa595f46a1b4c731fed92d30ad" style="width: 100.0%; height: 100.0%;">Załęże Skwer S. Barei<br> radius: 0.0</div>')[0];
+                popup_f1bf557c5d2e435bb403fd421f8eb375.setContent(html_b2a008aa595f46a1b4c731fed92d30ad);
+            
+
+            circle_marker_b340d143243e41aab5cda17198e30f2a.bindPopup(popup_f1bf557c5d2e435bb403fd421f8eb375)
+            ;
+
+            
+        
+    
+            var circle_marker_fa874bb0391843d6844a1dff298a2f3d = L.circleMarker(
+                [50.2049446, 18.9862648],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1C4ACF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#1C4ACF",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.3999019333146556,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc611db45d494ac08032b0f622784d90);
+            
+    
+            var popup_1ffdd20403474f1ba531461a3d1b443c = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_7771cf2646b34404b6ce81822194e57d = $('<div id="html_7771cf2646b34404b6ce81822194e57d" style="width: 100.0%; height: 100.0%;">Łętowskiego S.P. nr 27<br> radius: 0.0</div>')[0];
+                popup_1ffdd20403474f1ba531461a3d1b443c.setContent(html_7771cf2646b34404b6ce81822194e57d);
+            
+
+            circle_marker_fa874bb0391843d6844a1dff298a2f3d.bindPopup(popup_1ffdd20403474f1ba531461a3d1b443c)
+            ;
+
+            
+        
+    
+            var circle_marker_81a4596657844d809fedd0fd4c41ea94 = L.circleMarker(
+                [50.255493799999996, 19.0475732],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1C4ACF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#1C4ACF",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_bc611db45d494ac08032b0f622784d90);
+            
+    
+            var popup_c583bc2877194f8d8536d4f871ef85b4 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_50c003a8daa84b44aa0521a9ddf570b5 = $('<div id="html_50c003a8daa84b44aa0521a9ddf570b5" style="width: 100.0%; height: 100.0%;">Green Park<br> radius: 0</div>')[0];
+                popup_c583bc2877194f8d8536d4f871ef85b4.setContent(html_50c003a8daa84b44aa0521a9ddf570b5);
+            
+
+            circle_marker_81a4596657844d809fedd0fd4c41ea94.bindPopup(popup_c583bc2877194f8d8536d4f871ef85b4)
+            ;
+
+            
+        
+    
+            var feature_group_fcc87f0f01b0462dae304af15b4ab407 = L.featureGroup(
+                ).addTo(map_913bb49fe57a43f6951d01d8a1500f8e);
+        
+    
+            var circle_marker_35dbed74edd149d9a1e2e8a57299a85d = L.circleMarker(
+                [50.2750609, 18.9805487],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1C4ACF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#1C4ACF",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 16.1112743657557,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_fcc87f0f01b0462dae304af15b4ab407);
+            
+    
+            var popup_098d877869dd4336a922c9acbfc7426f = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_208612c29f174dac9effeb456c296dbf = $('<div id="html_208612c29f174dac9effeb456c296dbf" style="width: 100.0%; height: 100.0%;">Al. Bolesława Krzywoustego<br> radius: 3.0</div>')[0];
+                popup_098d877869dd4336a922c9acbfc7426f.setContent(html_208612c29f174dac9effeb456c296dbf);
+            
+
+            circle_marker_35dbed74edd149d9a1e2e8a57299a85d.bindPopup(popup_098d877869dd4336a922c9acbfc7426f)
+            ;
+
+            
+        
+    
+            var circle_marker_7d7f2f8cac6147a8b40768eb9d5b6d6f = L.circleMarker(
+                [50.280125399999996, 18.9737402],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1C4ACF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#1C4ACF",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6.456072941435824,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_fcc87f0f01b0462dae304af15b4ab407);
+            
+    
+            var popup_07d76b94a61d415389dac216837b255d = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_0566471b43214b9fa2c8a5a96530fa9a = $('<div id="html_0566471b43214b9fa2c8a5a96530fa9a" style="width: 100.0%; height: 100.0%;">Al. Księcia Henryka Pobożnego<br> radius: 1.0</div>')[0];
+                popup_07d76b94a61d415389dac216837b255d.setContent(html_0566471b43214b9fa2c8a5a96530fa9a);
+            
+
+            circle_marker_7d7f2f8cac6147a8b40768eb9d5b6d6f.bindPopup(popup_07d76b94a61d415389dac216837b255d)
+            ;
+
+            
+        
+    
+            var circle_marker_f5a1772a4e1f4cb3958bf59f1dfd1abf = L.circleMarker(
+                [50.2841958, 18.9678905],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1C4ACF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#1C4ACF",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4.413774205334295,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_fcc87f0f01b0462dae304af15b4ab407);
+            
+    
+            var popup_7b4ba9cf3cf7403d902ad2d06fa5d9d4 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_a1ad176d48af4fe8a6053d5e0b0d9e37 = $('<div id="html_a1ad176d48af4fe8a6053d5e0b0d9e37" style="width: 100.0%; height: 100.0%;">Al. Księżnej Jadwigi Śląskiej<br> radius: 1.0</div>')[0];
+                popup_7b4ba9cf3cf7403d902ad2d06fa5d9d4.setContent(html_a1ad176d48af4fe8a6053d5e0b0d9e37);
+            
+
+            circle_marker_f5a1772a4e1f4cb3958bf59f1dfd1abf.bindPopup(popup_7b4ba9cf3cf7403d902ad2d06fa5d9d4)
+            ;
+
+            
+        
+    
+            var circle_marker_f4e15f4c92844b6ab3b9186dfcedd5db = L.circleMarker(
+                [50.208442, 18.9738566],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1C4ACF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#1C4ACF",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2.1889979897943412,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_fcc87f0f01b0462dae304af15b4ab407);
+            
+    
+            var popup_50ff6ccb5bcf4a70902ea9d10383368d = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_3a48b31953cd4d67954804c324e9a37b = $('<div id="html_3a48b31953cd4d67954804c324e9a37b" style="width: 100.0%; height: 100.0%;">Armii Krajowej/Jankego<br> radius: 0.0</div>')[0];
+                popup_50ff6ccb5bcf4a70902ea9d10383368d.setContent(html_3a48b31953cd4d67954804c324e9a37b);
+            
+
+            circle_marker_f4e15f4c92844b6ab3b9186dfcedd5db.bindPopup(popup_50ff6ccb5bcf4a70902ea9d10383368d)
+            ;
+
+            
+        
+    
+            var circle_marker_363ed48b4e594d52a8805906cdc9f8f2 = L.circleMarker(
+                [50.2687742, 19.038690600000002],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1C4ACF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#1C4ACF",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4.089120766335954,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_fcc87f0f01b0462dae304af15b4ab407);
+            
+    
+            var popup_867af58fc6a0430cab69eb5fb3099b81 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_d254c128a48f4e0babc00691fd2af0f8 = $('<div id="html_d254c128a48f4e0babc00691fd2af0f8" style="width: 100.0%; height: 100.0%;">Bogucice Szpital<br> radius: 1.0</div>')[0];
+                popup_867af58fc6a0430cab69eb5fb3099b81.setContent(html_d254c128a48f4e0babc00691fd2af0f8);
+            
+
+            circle_marker_363ed48b4e594d52a8805906cdc9f8f2.bindPopup(popup_867af58fc6a0430cab69eb5fb3099b81)
+            ;
+
+            
+        
+    
+            var circle_marker_6e7a56ba20b446bab160b34ffd6ef0e7 = L.circleMarker(
+                [50.26451420000001, 19.0250095],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E80018",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#E80018",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.8225787640992337,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_fcc87f0f01b0462dae304af15b4ab407);
+            
+    
+            var popup_5db5d5930868414cbf42beb94ec5886a = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_896a327c927c4ecdb23c1cb5885ce067 = $('<div id="html_896a327c927c4ecdb23c1cb5885ce067" style="width: 100.0%; height: 100.0%;">COP24<br> radius: 1.0</div>')[0];
+                popup_5db5d5930868414cbf42beb94ec5886a.setContent(html_896a327c927c4ecdb23c1cb5885ce067);
+            
+
+            circle_marker_6e7a56ba20b446bab160b34ffd6ef0e7.bindPopup(popup_5db5d5930868414cbf42beb94ec5886a)
+            ;
+
+            
+        
+    
+            var circle_marker_0b818836d59f40439561145ef16b002b = L.circleMarker(
+                [50.23321729999999, 19.0278122],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1C4ACF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#1C4ACF",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 8.973705818683992,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_fcc87f0f01b0462dae304af15b4ab407);
+            
+    
+            var popup_86bba338edcf47d4ab8093b6b6a1f1f9 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_8ebed305fe45488196ef45388a3e9070 = $('<div id="html_8ebed305fe45488196ef45388a3e9070" style="width: 100.0%; height: 100.0%;">Dolina 3-ch Stawów<br> radius: 2.0</div>')[0];
+                popup_86bba338edcf47d4ab8093b6b6a1f1f9.setContent(html_8ebed305fe45488196ef45388a3e9070);
+            
+
+            circle_marker_0b818836d59f40439561145ef16b002b.bindPopup(popup_86bba338edcf47d4ab8093b6b6a1f1f9)
+            ;
+
+            
+        
+    
+            var circle_marker_58d6ccebc72640ed9871c97d9f91ab8c = L.circleMarker(
+                [50.283093, 19.0272936],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E80018",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#E80018",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.539038189533237,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_fcc87f0f01b0462dae304af15b4ab407);
+            
+    
+            var popup_dacbafb7023e47a393c1ad5525c71f25 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_99688f7f771640cd9b85119a2a17c540 = $('<div id="html_99688f7f771640cd9b85119a2a17c540" style="width: 100.0%; height: 100.0%;">GPP Business Park<br> radius: 1.0</div>')[0];
+                popup_dacbafb7023e47a393c1ad5525c71f25.setContent(html_99688f7f771640cd9b85119a2a17c540);
+            
+
+            circle_marker_58d6ccebc72640ed9871c97d9f91ab8c.bindPopup(popup_dacbafb7023e47a393c1ad5525c71f25)
+            ;
+
+            
+        
+    
+            var circle_marker_f20b5212b90d4ad8ac35b0fbce30614e = L.circleMarker(
+                [50.2435531, 19.0362906],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1C4ACF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#1C4ACF",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6.249281609195396,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_fcc87f0f01b0462dae304af15b4ab407);
+            
+    
+            var popup_1186c139f4f54dfdb1afc91ead73b583 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_493cc6d5509f4f64bc5cebfb8784a727 = $('<div id="html_493cc6d5509f4f64bc5cebfb8784a727" style="width: 100.0%; height: 100.0%;">Galeria 3 Stawy<br> radius: 1.0</div>')[0];
+                popup_1186c139f4f54dfdb1afc91ead73b583.setContent(html_493cc6d5509f4f64bc5cebfb8784a727);
+            
+
+            circle_marker_f20b5212b90d4ad8ac35b0fbce30614e.bindPopup(popup_1186c139f4f54dfdb1afc91ead73b583)
+            ;
+
+            
+        
+    
+            var circle_marker_93130ae1293d4115ba4d1f7d8b3cb1c9 = L.circleMarker(
+                [50.2219261, 19.064726800000003],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1C4ACF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#1C4ACF",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2.900892240954356,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_fcc87f0f01b0462dae304af15b4ab407);
+            
+    
+            var popup_c4e53a3bb25b4ff9bc18dcdd29ab6380 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_c34f3abb3db84e17b240611ff329b8e2 = $('<div id="html_c34f3abb3db84e17b240611ff329b8e2" style="width: 100.0%; height: 100.0%;">Giszowiec - Plac Pod Lipami<br> radius: 1.0</div>')[0];
+                popup_c4e53a3bb25b4ff9bc18dcdd29ab6380.setContent(html_c34f3abb3db84e17b240611ff329b8e2);
+            
+
+            circle_marker_93130ae1293d4115ba4d1f7d8b3cb1c9.bindPopup(popup_c4e53a3bb25b4ff9bc18dcdd29ab6380)
+            ;
+
+            
+        
+    
+            var circle_marker_6a277d0cbf354b7fb36f1e8b851e64f7 = L.circleMarker(
+                [50.26205, 19.075126],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E80018",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#E80018",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.515151515151516,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_fcc87f0f01b0462dae304af15b4ab407);
+            
+    
+            var popup_46a53695171543b9b1c84d5d666cdd8f = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_e6fc74daf43a416a97bfc6f56eb8acce = $('<div id="html_e6fc74daf43a416a97bfc6f56eb8acce" style="width: 100.0%; height: 100.0%;">ING Roździeńska<br> radius: 0.0</div>')[0];
+                popup_46a53695171543b9b1c84d5d666cdd8f.setContent(html_e6fc74daf43a416a97bfc6f56eb8acce);
+            
+
+            circle_marker_6a277d0cbf354b7fb36f1e8b851e64f7.bindPopup(popup_46a53695171543b9b1c84d5d666cdd8f)
+            ;
+
+            
+        
+    
+            var circle_marker_c6032f7bcd5d4bdfaa60688ab0f2961a = L.circleMarker(
+                [50.265271999999996, 19.016265],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E80018",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#E80018",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4.685559006211184,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_fcc87f0f01b0462dae304af15b4ab407);
+            
+    
+            var popup_7bc3bad0f7814757a190d67aae6f08c5 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_b4d5882e5b8a4908a5f7dc39135e6104 = $('<div id="html_b4d5882e5b8a4908a5f7dc39135e6104" style="width: 100.0%; height: 100.0%;">ING Sokolska<br> radius: 1.0</div>')[0];
+                popup_7bc3bad0f7814757a190d67aae6f08c5.setContent(html_b4d5882e5b8a4908a5f7dc39135e6104);
+            
+
+            circle_marker_c6032f7bcd5d4bdfaa60688ab0f2961a.bindPopup(popup_7bc3bad0f7814757a190d67aae6f08c5)
+            ;
+
+            
+        
+    
+            var circle_marker_c1c3bfe168bf45fe864a3ecf3db4295d = L.circleMarker(
+                [50.2551631, 19.037120899999998],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E80018",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#E80018",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2.079404986381732,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_fcc87f0f01b0462dae304af15b4ab407);
+            
+    
+            var popup_c4d4a2893833446f90ea18fb8f60860c = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_a55e95ea2f1c48bab6da3d7d9082a507 = $('<div id="html_a55e95ea2f1c48bab6da3d7d9082a507" style="width: 100.0%; height: 100.0%;">KTBS – Krasińskiego 14<br> radius: 0.0</div>')[0];
+                popup_c4d4a2893833446f90ea18fb8f60860c.setContent(html_a55e95ea2f1c48bab6da3d7d9082a507);
+            
+
+            circle_marker_c1c3bfe168bf45fe864a3ecf3db4295d.bindPopup(popup_c4d4a2893833446f90ea18fb8f60860c)
+            ;
+
+            
+        
+    
+            var circle_marker_ae531f55cc064aec9711671e2c440c34 = L.circleMarker(
+                [50.2611859, 19.0560131],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1C4ACF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#1C4ACF",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4.82789757894361,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_fcc87f0f01b0462dae304af15b4ab407);
+            
+    
+            var popup_df50d288565c4f6bbe8d329cd1648b40 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_b5567333978e4ec6a32396cb1cf51fc3 = $('<div id="html_b5567333978e4ec6a32396cb1cf51fc3" style="width: 100.0%; height: 100.0%;">KTBS – Saint Etienne 1<br> radius: 1.0</div>')[0];
+                popup_df50d288565c4f6bbe8d329cd1648b40.setContent(html_b5567333978e4ec6a32396cb1cf51fc3);
+            
+
+            circle_marker_ae531f55cc064aec9711671e2c440c34.bindPopup(popup_df50d288565c4f6bbe8d329cd1648b40)
+            ;
+
+            
+        
+    
+            var circle_marker_39c45dee50644550b6f9825ea807e4df = L.circleMarker(
+                [50.2587328, 19.0215882],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1C4ACF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#1C4ACF",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 30.71153846153841,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_fcc87f0f01b0462dae304af15b4ab407);
+            
+    
+            var popup_8cb0129181d241f38a1fffc8d46f0ecc = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_309e7baefc044715b012058e3949fc1e = $('<div id="html_309e7baefc044715b012058e3949fc1e" style="width: 100.0%; height: 100.0%;">Katowice Rynek<br> radius: 6.0</div>')[0];
+                popup_8cb0129181d241f38a1fffc8d46f0ecc.setContent(html_309e7baefc044715b012058e3949fc1e);
+            
+
+            circle_marker_39c45dee50644550b6f9825ea807e4df.bindPopup(popup_8cb0129181d241f38a1fffc8d46f0ecc)
+            ;
+
+            
+        
+    
+            var circle_marker_db93886812b140f2a07495ec5f452596 = L.circleMarker(
+                [50.234984999999995, 18.959487600000003],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1C4ACF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#1C4ACF",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2.689515662929143,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_fcc87f0f01b0462dae304af15b4ab407);
+            
+    
+            var popup_12c988296f0c4eec828d92a7e6f062b9 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_66a762d66bb94b129691b7c08694e9c9 = $('<div id="html_66a762d66bb94b129691b7c08694e9c9" style="width: 100.0%; height: 100.0%;">Kokociniec S.P nr 67<br> radius: 1.0</div>')[0];
+                popup_12c988296f0c4eec828d92a7e6f062b9.setContent(html_66a762d66bb94b129691b7c08694e9c9);
+            
+
+            circle_marker_db93886812b140f2a07495ec5f452596.bindPopup(popup_12c988296f0c4eec828d92a7e6f062b9)
+            ;
+
+            
+        
+    
+            var circle_marker_1c2ed685d2ba4cbfbf3a73309f345111 = L.circleMarker(
+                [50.200546200000005, 18.991386],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1C4ACF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#1C4ACF",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 0.6519933554817303,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_fcc87f0f01b0462dae304af15b4ab407);
+            
+    
+            var popup_e46c6d6514a04d3689a1ce7df1c97181 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_f678743185da4216ba3fe7fe33655bc8 = $('<div id="html_f678743185da4216ba3fe7fe33655bc8" style="width: 100.0%; height: 100.0%;">Kostuchna – Bażantów<br> radius: 0.0</div>')[0];
+                popup_e46c6d6514a04d3689a1ce7df1c97181.setContent(html_f678743185da4216ba3fe7fe33655bc8);
+            
+
+            circle_marker_1c2ed685d2ba4cbfbf3a73309f345111.bindPopup(popup_e46c6d6514a04d3689a1ce7df1c97181)
+            ;
+
+            
+        
+    
+            var circle_marker_8fd774714352452dab741ab03c9ee7ac = L.circleMarker(
+                [50.183717, 18.997722],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1C4ACF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#1C4ACF",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5.38347014324803,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_fcc87f0f01b0462dae304af15b4ab407);
+            
+    
+            var popup_4bc06ba918b74032b32dd9d66562200f = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_b7c3e7329cd041d1889efe87be8d3070 = $('<div id="html_b7c3e7329cd041d1889efe87be8d3070" style="width: 100.0%; height: 100.0%;">Kostuchna – Boże Dary<br> radius: 1.0</div>')[0];
+                popup_4bc06ba918b74032b32dd9d66562200f.setContent(html_b7c3e7329cd041d1889efe87be8d3070);
+            
+
+            circle_marker_8fd774714352452dab741ab03c9ee7ac.bindPopup(popup_4bc06ba918b74032b32dd9d66562200f)
+            ;
+
+            
+        
+    
+            var circle_marker_75659d24d6c740c398179c24d6732e60 = L.circleMarker(
+                [50.200024, 18.977245],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1C4ACF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#1C4ACF",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 0.029443874681573945,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_fcc87f0f01b0462dae304af15b4ab407);
+            
+    
+            var popup_d7fef9ba3bd6474e8713dbfca4aeb908 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_be4e206d7127412fa5471997489dbdb4 = $('<div id="html_be4e206d7127412fa5471997489dbdb4" style="width: 100.0%; height: 100.0%;">Kostuchna – Rondo Rostworowskiego<br> radius: 0.0</div>')[0];
+                popup_d7fef9ba3bd6474e8713dbfca4aeb908.setContent(html_be4e206d7127412fa5471997489dbdb4);
+            
+
+            circle_marker_75659d24d6c740c398179c24d6732e60.bindPopup(popup_d7fef9ba3bd6474e8713dbfca4aeb908)
+            ;
+
+            
+        
+    
+            var circle_marker_937bc4d3e26940faa149a70fc8136a33 = L.circleMarker(
+                [50.1936046, 18.990702399999996],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E80018",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#E80018",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7.078164495430686,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_fcc87f0f01b0462dae304af15b4ab407);
+            
+    
+            var popup_de4db2bc093a4814abe86c0eaa9ecab1 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_993312f2a3de46d493a72dbd259e1437 = $('<div id="html_993312f2a3de46d493a72dbd259e1437" style="width: 100.0%; height: 100.0%;">Kostuchna – Szarych Szeregów<br> radius: 1.0</div>')[0];
+                popup_de4db2bc093a4814abe86c0eaa9ecab1.setContent(html_993312f2a3de46d493a72dbd259e1437);
+            
+
+            circle_marker_937bc4d3e26940faa149a70fc8136a33.bindPopup(popup_de4db2bc093a4814abe86c0eaa9ecab1)
+            ;
+
+            
+        
+    
+            var circle_marker_249b8424e0aa4db6bc11b6d547c06b35 = L.circleMarker(
+                [50.2703969, 19.0247514],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E80018",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#E80018",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7.84520202020202,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_fcc87f0f01b0462dae304af15b4ab407);
+            
+    
+            var popup_4729a35b1dd04e20ad6cac5f904a1ad5 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_fc5c3c4f30ca4f7ab5c7d54390ce345e = $('<div id="html_fc5c3c4f30ca4f7ab5c7d54390ce345e" style="width: 100.0%; height: 100.0%;">Koszutka – Plac Gwarków<br> radius: 2.0</div>')[0];
+                popup_4729a35b1dd04e20ad6cac5f904a1ad5.setContent(html_fc5c3c4f30ca4f7ab5c7d54390ce345e);
+            
+
+            circle_marker_249b8424e0aa4db6bc11b6d547c06b35.bindPopup(popup_4729a35b1dd04e20ad6cac5f904a1ad5)
+            ;
+
+            
+        
+    
+            var circle_marker_6b81d32f83a142b1bbd997039845d8e2 = L.circleMarker(
+                [50.2261787, 18.975212300000003],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1C4ACF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#1C4ACF",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 0.030645161290321354,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_fcc87f0f01b0462dae304af15b4ab407);
+            
+    
+            var popup_49c28c7856ae45a39f0772b6ab4fe624 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_e689bbeff6694317bd5e4479a45705dc = $('<div id="html_e689bbeff6694317bd5e4479a45705dc" style="width: 100.0%; height: 100.0%;">Ligota Dworzec PKP<br> radius: 0.0</div>')[0];
+                popup_49c28c7856ae45a39f0772b6ab4fe624.setContent(html_e689bbeff6694317bd5e4479a45705dc);
+            
+
+            circle_marker_6b81d32f83a142b1bbd997039845d8e2.bindPopup(popup_49c28c7856ae45a39f0772b6ab4fe624)
+            ;
+
+            
+        
+    
+            var circle_marker_14a4071a8c9c4b7995c228c6bd4f76d5 = L.circleMarker(
+                [50.2266646, 18.9585549],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1C4ACF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#1C4ACF",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.0192218619731364,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_fcc87f0f01b0462dae304af15b4ab407);
+            
+    
+            var popup_7ecea839dc8d47188e788bac13edc6b8 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_993a7f34ef5949d3b8dd4e4fcde82739 = $('<div id="html_993a7f34ef5949d3b8dd4e4fcde82739" style="width: 100.0%; height: 100.0%;">Ligota Medyków<br> radius: 0.0</div>')[0];
+                popup_7ecea839dc8d47188e788bac13edc6b8.setContent(html_993a7f34ef5949d3b8dd4e4fcde82739);
+            
+
+            circle_marker_14a4071a8c9c4b7995c228c6bd4f76d5.bindPopup(popup_7ecea839dc8d47188e788bac13edc6b8)
+            ;
+
+            
+        
+    
+            var circle_marker_9fa53c2e28ab47198abaa8e2f6bd0199 = L.circleMarker(
+                [50.2187842, 18.968023000000002],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1C4ACF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#1C4ACF",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2.463647463647467,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_fcc87f0f01b0462dae304af15b4ab407);
+            
+    
+            var popup_c822a13819f84772b939941ba9e14e34 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_fffbb56a1011493a9fa14693afef0927 = $('<div id="html_fffbb56a1011493a9fa14693afef0927" style="width: 100.0%; height: 100.0%;">Ligota Wczasowa<br> radius: 0.0</div>')[0];
+                popup_c822a13819f84772b939941ba9e14e34.setContent(html_fffbb56a1011493a9fa14693afef0927);
+            
+
+            circle_marker_9fa53c2e28ab47198abaa8e2f6bd0199.bindPopup(popup_c822a13819f84772b939941ba9e14e34)
+            ;
+
+            
+        
+    
+            var circle_marker_7b21c78a1ce54307b53cff7a15b2159d = L.circleMarker(
+                [50.267405, 19.013105],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E80018",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#E80018",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4.340552872970473,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_fcc87f0f01b0462dae304af15b4ab407);
+            
+    
+            var popup_e98e73fdd6214c129f350b48e3b30189 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_154786167a48451d97c65ba6cf66d17b = $('<div id="html_154786167a48451d97c65ba6cf66d17b" style="width: 100.0%; height: 100.0%;">Murapol Chorzowska<br> radius: 1.0</div>')[0];
+                popup_e98e73fdd6214c129f350b48e3b30189.setContent(html_154786167a48451d97c65ba6cf66d17b);
+            
+
+            circle_marker_7b21c78a1ce54307b53cff7a15b2159d.bindPopup(popup_e98e73fdd6214c129f350b48e3b30189)
+            ;
+
+            
+        
+    
+            var circle_marker_8825d375497a4b8aad823ce1bdb78328 = L.circleMarker(
+                [50.2572153, 19.0286454],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1C4ACF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#1C4ACF",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6.922778771615974,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_fcc87f0f01b0462dae304af15b4ab407);
+            
+    
+            var popup_28b3d9cc9c8a4f40988f82f28fb2f3be = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_ed7b815d0a1b41d2aa202059f158db75 = $('<div id="html_ed7b815d0a1b41d2aa202059f158db75" style="width: 100.0%; height: 100.0%;">Murapol Mariacka<br> radius: 1.0</div>')[0];
+                popup_28b3d9cc9c8a4f40988f82f28fb2f3be.setContent(html_ed7b815d0a1b41d2aa202059f158db75);
+            
+
+            circle_marker_8825d375497a4b8aad823ce1bdb78328.bindPopup(popup_28b3d9cc9c8a4f40988f82f28fb2f3be)
+            ;
+
+            
+        
+    
+            var circle_marker_4f689d8604694da380e85293bb6c7c7b = L.circleMarker(
+                [50.1983719, 19.0427391],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1C4ACF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#1C4ACF",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 0.6757797458606074,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_fcc87f0f01b0462dae304af15b4ab407);
+            
+    
+            var popup_752a98c231c345b99fd14760226fefae = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_bd1f01a6414d40139dbce950d43b070c = $('<div id="html_bd1f01a6414d40139dbce950d43b070c" style="width: 100.0%; height: 100.0%;">Murcki - Rynek Murckowski<br> radius: 0.0</div>')[0];
+                popup_752a98c231c345b99fd14760226fefae.setContent(html_bd1f01a6414d40139dbce950d43b070c);
+            
+
+            circle_marker_4f689d8604694da380e85293bb6c7c7b.bindPopup(popup_752a98c231c345b99fd14760226fefae)
+            ;
+
+            
+        
+    
+            var circle_marker_2f0dd298981147508ac9c26ad9605255 = L.circleMarker(
+                [50.244895899999996, 19.0822254],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1C4ACF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#1C4ACF",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2.6787161614524235,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_fcc87f0f01b0462dae304af15b4ab407);
+            
+    
+            var popup_3607ea2f01914c4584c95f22115efaa6 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_c7fbf5f9599843d7b3aa5a5153f30175 = $('<div id="html_c7fbf5f9599843d7b3aa5a5153f30175" style="width: 100.0%; height: 100.0%;">Nikiszowiec Lodowisko Jantor<br> radius: 1.0</div>')[0];
+                popup_3607ea2f01914c4584c95f22115efaa6.setContent(html_c7fbf5f9599843d7b3aa5a5153f30175);
+            
+
+            circle_marker_2f0dd298981147508ac9c26ad9605255.bindPopup(popup_3607ea2f01914c4584c95f22115efaa6)
+            ;
+
+            
+        
+    
+            var circle_marker_58b5a87c7fa64e3c9ff786250bdeead9 = L.circleMarker(
+                [50.241248, 19.07865],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1C4ACF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#1C4ACF",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.0983055498387895,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_fcc87f0f01b0462dae304af15b4ab407);
+            
+    
+            var popup_63b031d8295042068900afef40f62c42 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_4d9b614ab61945b39cee2ba6f431e3ec = $('<div id="html_4d9b614ab61945b39cee2ba6f431e3ec" style="width: 100.0%; height: 100.0%;">Nikiszowiec – Św. Anny<br> radius: 0.0</div>')[0];
+                popup_63b031d8295042068900afef40f62c42.setContent(html_4d9b614ab61945b39cee2ba6f431e3ec);
+            
+
+            circle_marker_58b5a87c7fa64e3c9ff786250bdeead9.bindPopup(popup_63b031d8295042068900afef40f62c42)
+            ;
+
+            
+        
+    
+            var circle_marker_7d10215ca5034377b62bf9d8505c00a7 = L.circleMarker(
+                [50.2696, 19.046860000000002],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1C4ACF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#1C4ACF",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 0.10675528157708669,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_fcc87f0f01b0462dae304af15b4ab407);
+            
+    
+            var popup_00d584fc21314795809d1c10d4aa546c = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_80b1b014199c4d2fb282f946897de724 = $('<div id="html_80b1b014199c4d2fb282f946897de724" style="width: 100.0%; height: 100.0%;">Os. Kukuczki – Skwer Koszycki<br> radius: 0.0</div>')[0];
+                popup_00d584fc21314795809d1c10d4aa546c.setContent(html_80b1b014199c4d2fb282f946897de724);
+            
+
+            circle_marker_7d10215ca5034377b62bf9d8505c00a7.bindPopup(popup_00d584fc21314795809d1c10d4aa546c)
+            ;
+
+            
+        
+    
+            var circle_marker_7696e20f3d5b433ebeb1af003e86bb83 = L.circleMarker(
+                [50.232459000000006, 19.00897],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E80018",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#E80018",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.5335628227194498,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_fcc87f0f01b0462dae304af15b4ab407);
+            
+    
+            var popup_12a68895ffd04f8da04d8691a2a372de = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_1513fbdb99224a30898a193cbe51efa6 = $('<div id="html_1513fbdb99224a30898a193cbe51efa6" style="width: 100.0%; height: 100.0%;">Os. Ptasie – ul. Drozdów<br> radius: 0.0</div>')[0];
+                popup_12a68895ffd04f8da04d8691a2a372de.setContent(html_1513fbdb99224a30898a193cbe51efa6);
+            
+
+            circle_marker_7696e20f3d5b433ebeb1af003e86bb83.bindPopup(popup_12a68895ffd04f8da04d8691a2a372de)
+            ;
+
+            
+        
+    
+            var circle_marker_3cc05603eb2343ce921679a93c0c53a1 = L.circleMarker(
+                [50.2372626, 19.004530300000003],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E80018",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#E80018",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6.025368927209418,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_fcc87f0f01b0462dae304af15b4ab407);
+            
+    
+            var popup_e3d50a02213b44aa890750937b0ed8fc = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_4ccfa59aa66a492aa40744923d44d065 = $('<div id="html_4ccfa59aa66a492aa40744923d44d065" style="width: 100.0%; height: 100.0%;">Os. Ptasie – ul. Gawronów<br> radius: 1.0</div>')[0];
+                popup_e3d50a02213b44aa890750937b0ed8fc.setContent(html_4ccfa59aa66a492aa40744923d44d065);
+            
+
+            circle_marker_3cc05603eb2343ce921679a93c0c53a1.bindPopup(popup_e3d50a02213b44aa890750937b0ed8fc)
+            ;
+
+            
+        
+    
+            var circle_marker_246efa369e264b729c679d6eb7262cd1 = L.circleMarker(
+                [50.2625939, 18.9716948],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1C4ACF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#1C4ACF",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 0.13233374213712068,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_fcc87f0f01b0462dae304af15b4ab407);
+            
+    
+            var popup_4a85297bb6dc45fb93f4bd16af9b70bb = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_1e039642ee424b87a222ceb7dbfccce1 = $('<div id="html_1e039642ee424b87a222ceb7dbfccce1" style="width: 100.0%; height: 100.0%;">Os. Witosa – ul. Rataja<br> radius: 0.0</div>')[0];
+                popup_4a85297bb6dc45fb93f4bd16af9b70bb.setContent(html_1e039642ee424b87a222ceb7dbfccce1);
+            
+
+            circle_marker_246efa369e264b729c679d6eb7262cd1.bindPopup(popup_4a85297bb6dc45fb93f4bd16af9b70bb)
+            ;
+
+            
+        
+    
+            var circle_marker_0c67ceb45c1f4ad7a8291e0246bf1958 = L.circleMarker(
+                [50.2315646, 18.9636766],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1C4ACF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#1C4ACF",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.349159156369037,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_fcc87f0f01b0462dae304af15b4ab407);
+            
+    
+            var popup_960ad2a561d1437cbbf188b0267e204e = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_fa9ec6c60b634b9086246f54776b5b74 = $('<div id="html_fa9ec6c60b634b9086246f54776b5b74" style="width: 100.0%; height: 100.0%;">Osiedle Franciszkańskie<br> radius: 1.0</div>')[0];
+                popup_960ad2a561d1437cbbf188b0267e204e.setContent(html_fa9ec6c60b634b9086246f54776b5b74);
+            
+
+            circle_marker_0c67ceb45c1f4ad7a8291e0246bf1958.bindPopup(popup_960ad2a561d1437cbbf188b0267e204e)
+            ;
+
+            
+        
+    
+            var circle_marker_7f1c7921ada7468abb21bd8c9f5f85b2 = L.circleMarker(
+                [50.259698, 18.968564100000002],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E80018",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#E80018",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 0.04539231174302216,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_fcc87f0f01b0462dae304af15b4ab407);
+            
+    
+            var popup_a45c65f771f1489aadf308683c6a7f6c = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_8caa0b22a5d54818afded7d8d2682d92 = $('<div id="html_8caa0b22a5d54818afded7d8d2682d92" style="width: 100.0%; height: 100.0%;">Osiedle Witosa - Plac Herberta<br> radius: 0.0</div>')[0];
+                popup_a45c65f771f1489aadf308683c6a7f6c.setContent(html_8caa0b22a5d54818afded7d8d2682d92);
+            
+
+            circle_marker_7f1c7921ada7468abb21bd8c9f5f85b2.bindPopup(popup_a45c65f771f1489aadf308683c6a7f6c)
+            ;
+
+            
+        
+    
+            var circle_marker_9a1df683c89245008b0f487527f45641 = L.circleMarker(
+                [50.2783792, 19.0818201],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1C4ACF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#1C4ACF",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_fcc87f0f01b0462dae304af15b4ab407);
+            
+    
+            var popup_13d0b6c5658d45539495e1af08729a2e = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_f7535c8458ef45dea0025f59bd58840b = $('<div id="html_f7535c8458ef45dea0025f59bd58840b" style="width: 100.0%; height: 100.0%;">PKN Orlen - Al. Roździeńskiego<br> radius: 0.0</div>')[0];
+                popup_13d0b6c5658d45539495e1af08729a2e.setContent(html_f7535c8458ef45dea0025f59bd58840b);
+            
+
+            circle_marker_9a1df683c89245008b0f487527f45641.bindPopup(popup_13d0b6c5658d45539495e1af08729a2e)
+            ;
+
+            
+        
+    
+            var circle_marker_1d6fcb36559c4884993b2246d4087132 = L.circleMarker(
+                [50.260639000000005, 18.986160899999998],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E80018",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#E80018",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 0.20408163265306145,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_fcc87f0f01b0462dae304af15b4ab407);
+            
+    
+            var popup_7fae0b754c1c4f9fbaadb43be3d782c8 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_e89dd460020c43979883172bb7ddc186 = $('<div id="html_e89dd460020c43979883172bb7ddc186" style="width: 100.0%; height: 100.0%;">PKN Orlen - Bocheńskiego<br> radius: 0.0</div>')[0];
+                popup_7fae0b754c1c4f9fbaadb43be3d782c8.setContent(html_e89dd460020c43979883172bb7ddc186);
+            
+
+            circle_marker_1d6fcb36559c4884993b2246d4087132.bindPopup(popup_7fae0b754c1c4f9fbaadb43be3d782c8)
+            ;
+
+            
+        
+    
+            var circle_marker_f2efffaf7ef34c1a9455ccb4d98f3bf8 = L.circleMarker(
+                [50.2544694, 19.047372],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E80018",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#E80018",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.8504027617951668,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_fcc87f0f01b0462dae304af15b4ab407);
+            
+    
+            var popup_4d5e44d2b04043a291c76644a390f749 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_6d3d43a8f4994ad3be2547b0fefab534 = $('<div id="html_6d3d43a8f4994ad3be2547b0fefab534" style="width: 100.0%; height: 100.0%;">PKN Orlen - Murckowska<br> radius: 0.0</div>')[0];
+                popup_4d5e44d2b04043a291c76644a390f749.setContent(html_6d3d43a8f4994ad3be2547b0fefab534);
+            
+
+            circle_marker_f2efffaf7ef34c1a9455ccb4d98f3bf8.bindPopup(popup_4d5e44d2b04043a291c76644a390f749)
+            ;
+
+            
+        
+    
+            var circle_marker_aeda92b53f024ae696fb3e75902ee506 = L.circleMarker(
+                [50.2303445, 18.9721039],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1C4ACF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#1C4ACF",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 0.5368289637952572,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_fcc87f0f01b0462dae304af15b4ab407);
+            
+    
+            var popup_b09fa5b9880b44a2be7a87755f1f468a = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_70e3796ed07b41489f917ec9efd96386 = $('<div id="html_70e3796ed07b41489f917ec9efd96386" style="width: 100.0%; height: 100.0%;">PKN Orlen - Piotrowicka<br> radius: 0.0</div>')[0];
+                popup_b09fa5b9880b44a2be7a87755f1f468a.setContent(html_70e3796ed07b41489f917ec9efd96386);
+            
+
+            circle_marker_aeda92b53f024ae696fb3e75902ee506.bindPopup(popup_b09fa5b9880b44a2be7a87755f1f468a)
+            ;
+
+            
+        
+    
+            var circle_marker_c99bd8ad3ef848b4bc37e18f644317ca = L.circleMarker(
+                [50.24681210000001, 19.0098855],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1C4ACF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#1C4ACF",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 0.008299781027059083,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_fcc87f0f01b0462dae304af15b4ab407);
+            
+    
+            var popup_760b34ee29d4439692730ce2a9d500be = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_ac821e32d0404486bafb98d1dffd21ea = $('<div id="html_ac821e32d0404486bafb98d1dffd21ea" style="width: 100.0%; height: 100.0%;">Park Kościuszki<br> radius: 0.0</div>')[0];
+                popup_760b34ee29d4439692730ce2a9d500be.setContent(html_ac821e32d0404486bafb98d1dffd21ea);
+            
+
+            circle_marker_c99bd8ad3ef848b4bc37e18f644317ca.bindPopup(popup_760b34ee29d4439692730ce2a9d500be)
+            ;
+
+            
+        
+    
+            var circle_marker_0a8f54d9a2c1440ca89cf517de622abf = L.circleMarker(
+                [50.2146385, 18.990065700000002],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1C4ACF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#1C4ACF",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 0.5627705627705648,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_fcc87f0f01b0462dae304af15b4ab407);
+            
+    
+            var popup_ff6ff0512a6c429288633f4863704379 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_56f243721a994db0b296012706498ca5 = $('<div id="html_56f243721a994db0b296012706498ca5" style="width: 100.0%; height: 100.0%;">Piotrowice V L.O.<br> radius: 0.0</div>')[0];
+                popup_ff6ff0512a6c429288633f4863704379.setContent(html_56f243721a994db0b296012706498ca5);
+            
+
+            circle_marker_0a8f54d9a2c1440ca89cf517de622abf.bindPopup(popup_ff6ff0512a6c429288633f4863704379)
+            ;
+
+            
+        
+    
+            var circle_marker_ffd9801b94df40c9af25d5c395d073cc = L.circleMarker(
+                [50.2538403, 19.023790899999998],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E80018",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#E80018",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4.633195465686271,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_fcc87f0f01b0462dae304af15b4ab407);
+            
+    
+            var popup_a361542a9249475c99c6291de0fb4257 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_5303805dbba2451697c89d1a9ae93fa5 = $('<div id="html_5303805dbba2451697c89d1a9ae93fa5" style="width: 100.0%; height: 100.0%;">Plac Sejmu Śląskiego<br> radius: 1.0</div>')[0];
+                popup_a361542a9249475c99c6291de0fb4257.setContent(html_5303805dbba2451697c89d1a9ae93fa5);
+            
+
+            circle_marker_ffd9801b94df40c9af25d5c395d073cc.bindPopup(popup_a361542a9249475c99c6291de0fb4257)
+            ;
+
+            
+        
+    
+            var circle_marker_889a32c2188649708e796ba73724a1e4 = L.circleMarker(
+                [50.25969, 19.01451],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1C4ACF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#1C4ACF",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4.015151515151523,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_fcc87f0f01b0462dae304af15b4ab407);
+            
+    
+            var popup_4753208298cd4307a690c53dce14e145 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_e112c0b471e840c78dd50161ee47eef1 = $('<div id="html_e112c0b471e840c78dd50161ee47eef1" style="width: 100.0%; height: 100.0%;">Plac Wolności<br> radius: 1.0</div>')[0];
+                popup_4753208298cd4307a690c53dce14e145.setContent(html_e112c0b471e840c78dd50161ee47eef1);
+            
+
+            circle_marker_889a32c2188649708e796ba73724a1e4.bindPopup(popup_4753208298cd4307a690c53dce14e145)
+            ;
+
+            
+        
+    
+            var circle_marker_5abb0c203f4f4b2fa6a6eb2f88b2528f = L.circleMarker(
+                [50.174445500000004, 18.9707267],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1C4ACF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#1C4ACF",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6.57196087564043,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_fcc87f0f01b0462dae304af15b4ab407);
+            
+    
+            var popup_ff903f4327114be79f18cec2d4e1a794 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_55e15b44fcda42fb9477f222b8a96ff6 = $('<div id="html_55e15b44fcda42fb9477f222b8a96ff6" style="width: 100.0%; height: 100.0%;">Podlesie – Stary Most<br> radius: 1.0</div>')[0];
+                popup_ff903f4327114be79f18cec2d4e1a794.setContent(html_55e15b44fcda42fb9477f222b8a96ff6);
+            
+
+            circle_marker_5abb0c203f4f4b2fa6a6eb2f88b2528f.bindPopup(popup_ff903f4327114be79f18cec2d4e1a794)
+            ;
+
+            
+        
+    
+            var circle_marker_7e546bdecb9941e2a8efdf399fb14059 = L.circleMarker(
+                [50.2554029, 19.0322917],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E80018",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#E80018",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6.256716279644268,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_fcc87f0f01b0462dae304af15b4ab407);
+            
+    
+            var popup_24907a21255a404996f709991ec99003 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_a629169167614bf68f782a4301b788c2 = $('<div id="html_a629169167614bf68f782a4301b788c2" style="width: 100.0%; height: 100.0%;">Politechnika Śląska<br> radius: 1.0</div>')[0];
+                popup_24907a21255a404996f709991ec99003.setContent(html_a629169167614bf68f782a4301b788c2);
+            
+
+            circle_marker_7e546bdecb9941e2a8efdf399fb14059.bindPopup(popup_24907a21255a404996f709991ec99003)
+            ;
+
+            
+        
+    
+            var circle_marker_8acf0810789347709007f2ecf7ef1faa = L.circleMarker(
+                [50.269921999999994, 18.9981936],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1C4ACF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#1C4ACF",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 0.28151925443994585,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_fcc87f0f01b0462dae304af15b4ab407);
+            
+    
+            var popup_8cd0f8b926d1441d8409ef236e12b60a = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_83656120a94644a8b1a48f727c75f83d = $('<div id="html_83656120a94644a8b1a48f727c75f83d" style="width: 100.0%; height: 100.0%;">Silesia Business Park<br> radius: 0.0</div>')[0];
+                popup_8cd0f8b926d1441d8409ef236e12b60a.setContent(html_83656120a94644a8b1a48f727c75f83d);
+            
+
+            circle_marker_8acf0810789347709007f2ecf7ef1faa.bindPopup(popup_8cd0f8b926d1441d8409ef236e12b60a)
+            ;
+
+            
+        
+    
+            var circle_marker_dc305cf0e282448eacfcad318af7ddfe = L.circleMarker(
+                [50.269575399999994, 19.0037077],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E80018",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#E80018",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 11.426689680232549,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_fcc87f0f01b0462dae304af15b4ab407);
+            
+    
+            var popup_8a9d2245987944d7a1b53cc0019059d4 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_17f4ca83cbc048d4b16e6380cad36aa6 = $('<div id="html_17f4ca83cbc048d4b16e6380cad36aa6" style="width: 100.0%; height: 100.0%;">Silesia City Center<br> radius: 2.0</div>')[0];
+                popup_8a9d2245987944d7a1b53cc0019059d4.setContent(html_17f4ca83cbc048d4b16e6380cad36aa6);
+            
+
+            circle_marker_dc305cf0e282448eacfcad318af7ddfe.bindPopup(popup_8a9d2245987944d7a1b53cc0019059d4)
+            ;
+
+            
+        
+    
+            var circle_marker_303b1c72c41144db972c33f83a983b8d = L.circleMarker(
+                [50.225401399999996, 18.970036399999998],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E80018",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#E80018",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 0.09375000000000355,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_fcc87f0f01b0462dae304af15b4ab407);
+            
+    
+            var popup_9f5a9e8c85ba43f7a0e7a38875d3b68a = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_6809f465eaee458699d8c2d36be5fa96 = $('<div id="html_6809f465eaee458699d8c2d36be5fa96" style="width: 100.0%; height: 100.0%;">Skwer Bolesława Szabelskiego<br> radius: 0.0</div>')[0];
+                popup_9f5a9e8c85ba43f7a0e7a38875d3b68a.setContent(html_6809f465eaee458699d8c2d36be5fa96);
+            
+
+            circle_marker_303b1c72c41144db972c33f83a983b8d.bindPopup(popup_9f5a9e8c85ba43f7a0e7a38875d3b68a)
+            ;
+
+            
+        
+    
+            var circle_marker_cda2cd44095b441d8eb2cfc2b8a2241e = L.circleMarker(
+                [50.262446399999995, 19.095087600000003],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1C4ACF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#1C4ACF",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.7494912494912525,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_fcc87f0f01b0462dae304af15b4ab407);
+            
+    
+            var popup_ee3db011b130467d9fedcd3a457cb011 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_0e4494b8b342465b9699d25980dfac64 = $('<div id="html_0e4494b8b342465b9699d25980dfac64" style="width: 100.0%; height: 100.0%;">Szopienice - Plac Powstańców Śląskich<br> radius: 1.0</div>')[0];
+                popup_ee3db011b130467d9fedcd3a457cb011.setContent(html_0e4494b8b342465b9699d25980dfac64);
+            
+
+            circle_marker_cda2cd44095b441d8eb2cfc2b8a2241e.bindPopup(popup_ee3db011b130467d9fedcd3a457cb011)
+            ;
+
+            
+        
+    
+            var circle_marker_49d088a296c440b1b5ceafbb2984d5d1 = L.circleMarker(
+                [50.251646799999996, 19.0311023],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E80018",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#E80018",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.1307025337786136,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_fcc87f0f01b0462dae304af15b4ab407);
+            
+    
+            var popup_cee9a8c9a5624470bd35abc326163b79 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_c09364476e3442f1b16e8c8f960e001c = $('<div id="html_c09364476e3442f1b16e8c8f960e001c" style="width: 100.0%; height: 100.0%;">Ul. Powstańców - Biblioteka Śląska<br> radius: 0.0</div>')[0];
+                popup_cee9a8c9a5624470bd35abc326163b79.setContent(html_c09364476e3442f1b16e8c8f960e001c);
+            
+
+            circle_marker_49d088a296c440b1b5ceafbb2984d5d1.bindPopup(popup_cee9a8c9a5624470bd35abc326163b79)
+            ;
+
+            
+        
+    
+            var circle_marker_c4879032f0e1461bb6c5906db53837c0 = L.circleMarker(
+                [50.2192865, 18.9762528],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E80018",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#E80018",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.3241890234683407,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_fcc87f0f01b0462dae304af15b4ab407);
+            
+    
+            var popup_b6bbba55f6634714b78bafa3371d7786 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_bc7977690331476b9bddf15405ddf921 = $('<div id="html_bc7977690331476b9bddf15405ddf921" style="width: 100.0%; height: 100.0%;">Zadole Kościół<br> radius: 0.0</div>')[0];
+                popup_b6bbba55f6634714b78bafa3371d7786.setContent(html_bc7977690331476b9bddf15405ddf921);
+            
+
+            circle_marker_c4879032f0e1461bb6c5906db53837c0.bindPopup(popup_b6bbba55f6634714b78bafa3371d7786)
+            ;
+
+            
+        
+    
+            var circle_marker_474c32308ab34f898c43cea11be7260c = L.circleMarker(
+                [50.2630759, 19.0046196],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E80018",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#E80018",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 0.11627906976745095,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_fcc87f0f01b0462dae304af15b4ab407);
+            
+    
+            var popup_318c838ef3694b139010ce694d36f007 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_c64260df516442fa97871c1e34904ff4 = $('<div id="html_c64260df516442fa97871c1e34904ff4" style="width: 100.0%; height: 100.0%;">Załęże Skwer S. Barei<br> radius: 0.0</div>')[0];
+                popup_318c838ef3694b139010ce694d36f007.setContent(html_c64260df516442fa97871c1e34904ff4);
+            
+
+            circle_marker_474c32308ab34f898c43cea11be7260c.bindPopup(popup_318c838ef3694b139010ce694d36f007)
+            ;
+
+            
+        
+    
+            var circle_marker_4e565d03714c4de79807ab8202a3db9d = L.circleMarker(
+                [50.2049446, 18.9862648],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1C4ACF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#1C4ACF",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2.108551641071963,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_fcc87f0f01b0462dae304af15b4ab407);
+            
+    
+            var popup_1b03f07271264ada992b6d3478cbf0f4 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_b9495203f2984ce6ad28cc238a525356 = $('<div id="html_b9495203f2984ce6ad28cc238a525356" style="width: 100.0%; height: 100.0%;">Łętowskiego S.P. nr 27<br> radius: 0.0</div>')[0];
+                popup_1b03f07271264ada992b6d3478cbf0f4.setContent(html_b9495203f2984ce6ad28cc238a525356);
+            
+
+            circle_marker_4e565d03714c4de79807ab8202a3db9d.bindPopup(popup_1b03f07271264ada992b6d3478cbf0f4)
+            ;
+
+            
+        
+    
+            var circle_marker_719d63f57f1644b5adec0537fe3c146b = L.circleMarker(
+                [50.255493799999996, 19.0475732],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1C4ACF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#1C4ACF",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.8715332286760855,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_fcc87f0f01b0462dae304af15b4ab407);
+            
+    
+            var popup_a9c87b9702a44f93a3677b965d8779c8 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_84090f8d46b64fc9b44718e6726876af = $('<div id="html_84090f8d46b64fc9b44718e6726876af" style="width: 100.0%; height: 100.0%;">Green Park<br> radius: 0.0</div>')[0];
+                popup_a9c87b9702a44f93a3677b965d8779c8.setContent(html_84090f8d46b64fc9b44718e6726876af);
+            
+
+            circle_marker_719d63f57f1644b5adec0537fe3c146b.bindPopup(popup_a9c87b9702a44f93a3677b965d8779c8)
+            ;
+
+            
+        
+    
+            var layer_control_a1dfaf6641154733974bcdbef2cf70dc = {
+                base_layers : { "cartodbpositron" : tile_layer_ba75b64c49904e2a8b90d05ee9c7785a, },
+                overlays : { "2017" : feature_group_bc611db45d494ac08032b0f622784d90,"2018" : feature_group_fcc87f0f01b0462dae304af15b4ab407, }
+                };
+            L.control.layers(
+                layer_control_a1dfaf6641154733974bcdbef2cf70dc.base_layers,
+                layer_control_a1dfaf6641154733974bcdbef2cf70dc.overlays,
+                {position: 'topright',
+                 collapsed: true,
+                 autoZIndex: true
+                }).addTo(map_913bb49fe57a43f6951d01d8a1500f8e);
+            
+                feature_group_bc611db45d494ac08032b0f622784d90.remove();
+        
+</script>
